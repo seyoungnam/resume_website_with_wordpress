@@ -127,13 +127,25 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
 
 6. Install plugins for template.
 
-    * Click “**Plugins**” -> “**Add New**” -> type “**Starter templates**” in search bar, then click “**Install**” and “**activate**” on Starter Templates - Elementor.
+    1. Click “**Plugins**” -> “**Add New**” -> type “**Starter templates**” in search bar, then click “**Install**” and “**activate**” on Starter Templates - Elementor.
     ![Plugins -> Add New](./images/6-1.png?raw=true)
     ![Starter Templates](./images/6-2.png?raw=true)
-    * Click “**Apperance**” -> “**Starter Templates**”. Choose Elementor.
+    2. Click “**Apperance**” -> “**Starter Templates**”. Choose Elementor.
     ![Get into starter templates](./images/6-3.png?raw=true)
     ![Choose Elementor](./images/6-4.png?raw=true)
-    * In the search box, type and click “**Learn Digital Marketing**”.
+    3. In the search box, type and click “**Learn Digital Marketing**”.
     ![Learn Digital Marketing](./images/6-5.png?raw=true)
-    * Click “**Import Complete Site**”.
+    4. Click “**Import Complete Site**”.
     ![Import Complete Site](./images/6-6.png?raw=true)
+    5. Also make sure to install “**Premium Addons for Elementor**” (Plugins -> Add New -> Search "premium addons for elementor" -> Install Now & Activate)
+    ![Import Complete Site](./images/6-7.png?raw=true)
+
+<br>
+
+
+<!-- Designing -->
+## Designing
+
+1. Main Section
+
+    1. Go to your site
