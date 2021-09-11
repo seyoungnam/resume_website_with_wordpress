@@ -215,7 +215,7 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
     1. Click the section button on the top left and remove the current image.
         ![portfolio section start](./images/8-2.png?raw=true)
         * Style -> Background -> Normal -> Color: #F4F5F6
-        * Advanced -> Padding: 104 280 0 280
+        * Advanced -> Padding: 100 0 50 0
 
     2. Change the text in the title and paragraph.
         * For title, Style -> Title -> Text Color: #020101
@@ -265,8 +265,59 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
             - Alignment: Center
         ![card finished](./images/8-10.png?raw=true)
 
-    7. By applying the same strategy, create other portfolio cards.
+    7. By applying the same strategy, create other portfolio cards. Don't forget to give 100 padding at the bottom and background color(#F4F5F6).
 
-    
+<br>
+
+### Work Experiences & Skills
+
+1. Drag the "My Experience" section right under the portfolio section. Change the title to "Work Expriences & Skills". Delete the texts under the title.
+
+2. Skill Category Title: Insert the "Text Editor" block under the title.
+    * Content -> Text Editor
+        - Change "Paragraph" to "Heading 5"
+        - Type in one of your skills in the text box
+
+3. Relevant Skills: Insert the "Text Editor" block under the skill title. 
+    * Content -> Text Editor -> Text: Create your contents using HTML tags. Feel free to use my format as follows.
+    ![Skills](./images/9-1.png?raw=true)
+
+```HTML
+<div class="row">
+<div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
+
+<img class="" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="NodeJS icon Vector Logo - Download Free SVG Icon | Worldvectorlogo" width="38" height="42" />
+
+NodeJs
+
+</div>
+<div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
+
+<img class="" src="https://cdn.iconscout.com/icon/free/png-512/django-1-282754.png" alt="Free Django Flat Logo Icon - Available in SVG, PNG, EPS, AI &amp; Icon fonts" width="43" height="43" />
+
+Django
+
+</div>
+<div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
+
+<img class="" src="https://cdn.freelogovectors.net/wp-content/uploads/2018/12/react_logo.png" alt="React Logo Download Vector" width="47" height="42" />
+
+React
+
+</div>
+<div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
+
+<img class="" src="https://images.tute.io/tute/topic/FastAPI.png" alt="FastAPI Tutorials, Books, Courses &amp; Resources" width="42" height="42" />
+
+FastAPI
+
+</div>
+</div>
+```
+
+
+4. Repeat Step 2 and 3 if necessary to fully showcase your skillset.
+
+5. For your experience part, try to adjust the section size first.
 
 
