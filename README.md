@@ -87,10 +87,9 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
 ## Template Selection
 
 1. Clean all Plugins out.
+    ![Clean All Plugins Out 1-1](./images/1-1.png)
 
-![Clean All Plugins Out 1-1](./images/1-1.png)
-
-![Clean All Plugins Out 1-2](../images/1-2.jpg?raw=true)
+![Clean All Plugins Out 1-2](./images/1-2.jpg?raw=true)
 
 <br>
 
