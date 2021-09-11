@@ -184,7 +184,7 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
     * Content -> Link -> Alignment: left
 ![resume](./images/7-7.png?raw=true)
        
-8. Background: Click the vacant dark background, then you can find the six digits on top of the section. Click the six digits button.
+8. Background: Click the vacant dark background, then you can find the six dots on top of the section. Click the six dot button.
     ![section button](./images/7-8.png?raw=true)
     * Style -> Background -> Normal -> Image: choose your main background image
         - Background -> Normal -> Repeat: No-repeat
@@ -201,3 +201,72 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
 
 9. Wrap up: Remove unnecessary contents and click the update button on the bottom left.
 ![Main section end](./images/7-9.png?raw=true)
+
+<br>
+
+### Portfolio
+
+1. Delete the section containing “I have been more than 12 years in digital marketing ~ “.
+
+2. Go down to the "Digital Marketing Resource" section. Grap and drag the entire section right under the main section.
+![portfolio section start](./images/8-1.png?raw=true)
+
+3. Change the background and contents. Remove unncessary contents.
+    1. Click the section button on the top left and remove the current image.
+        ![portfolio section start](./images/8-2.png?raw=true)
+        * Style -> Background -> Normal -> Color: #F4F5F6
+        * Advanced -> Padding: 104 280 0 280
+
+    2. Change the text in the title and paragraph.
+        * For title, Style -> Title -> Text Color: #020101
+        * For paragraph, Style -> Title -> Text Color: #7A7A7A
+
+    3. Delete the "View All Resources" button.
+
+4. Create the card section.
+    1. Click the "**add section**" button, select the plus button, and choose the four section.
+    ![card section creation 1](./images/8-3.png?raw=true)
+    ![card section creation 2](./images/8-4.png?raw=true)
+    ![card section creation 3](./images/8-5.png?raw=true)
+
+    2. Establish a column style: click one column out of four.
+        * Style -> Border -> Normal -> Radius 15 15 15 15 / Box Shadow blur 10
+        * Advanced -> Margin: 20 20 20 20
+        
+    3. Insert the modal box: click the nine dot button, search "premium modal box", and drag the box to the column. You will see that the column style is well applied.
+    ![premium modal box](./images/8-6.png?raw=true)
+    ![premium modal box with style](./images/8-7.png?raw=true)
+
+    4. Insert the image box: click the nine dot button, search "image box", and drag the box to the column.
+    ![image box](./images/8-8.png?raw=true)
+
+    5. Edit the image box
+        * Delete the image.
+        * Content
+            - Image Box -> Title & Description: "Your project title and description"
+            - Title HTML Tag: H5
+        * Style -> Content
+            - Spacing: 0
+            - Alignment: left
+            - Description -> Typography: 15 PX
+        * Advacned -> Padding: 10 10 10 10
+        ![image box created](./images/8-9.png?raw=true)
+
+    6. Edit the modal box
+        * Click the pencil button of the premium modal box.
+        * Content -> Content
+            - Title: "Your project title"
+            - Content -> Text: Put Your project introduction text and link using a tag.
+            - Lower Close Button: No
+            - Entrance Animation: Fade In
+        * Content -> Trigger Options
+            - Trigger: Image
+            - Image: "Your project thumbnail"
+            - Alignment: Center
+        ![card finished](./images/8-10.png?raw=true)
+
+    7. By applying the same strategy, create other portfolio cards.
+
+    
+
+
