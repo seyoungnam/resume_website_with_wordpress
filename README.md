@@ -146,57 +146,58 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
 <!-- Designing -->
 ## Designing
 
-1. Main Section (7)
+### Main Section
 
-    1. Visit your site and activate the Elementor editor by clicking "**Edit with Elementor**" on the top bar.
-    ![Visit your site to confirm your site is empty 2-1](./images/2-1.png?raw=true)
-    ![Edit with Elementor](./images/7-1.png?raw=true)
+1. Visit your site and activate the Elementor editor by clicking "**Edit with Elementor**" on the top bar.
+![Visit your site to confirm your site is empty 2-1](./images/2-1.png?raw=true)
+![Edit with Elementor](./images/7-1.png?raw=true)
 
-    2. Create a new section: From your left pane, find “**Inner Section**”. Drag it under the red button.
-    ![Inner Section](./images/7-2.png?raw=true)
+2. Create a new section: From your left pane, find “**Inner Section**”. Drag it under the red button.
+![Inner Section](./images/7-2.jpg?raw=true)
 
-    3. My name: Duplicate the heading “My name is Ben Arthur. Digital marketing expert.” and drag it down to the left blank section. Change the contents in the editor(left pane) to the following directions.
-        * Content -> Title: "Your Name"
-        * Content -> Alignment: left
-        * Advanced -> Padding: 0 0 0 0
+3. My name: Duplicate the heading “My name is Ben Arthur. Digital marketing expert.” and drag it down to the left blank section. Change the contents in the editor(left pane) to the following directions.
+    * Content -> Title: "Your Name"
+    * Content -> Alignment: left
+    * Advanced -> Padding: 0 0 0 0
     ![Title](./images/7-3.png?raw=true)
 
-    4. A White bar: Click the nine dots on top-right corner of the editor and choose “divider”. Drag it down to your name.
-    ![divider](./images/7-4.jpeg?raw=true)
-        * Content -> Width: 86 PX
-        * Style -> Color #FFFFFF/Weight 4/Gap 0
-        * Advanced -> Padding: 24 0 0 0
-    ![divider created](./images/7-5.jpeg?raw=true)
+4. A White bar: Click the nine dots on top-right corner of the editor and choose “divider”. Drag it down to your name.
+![divider](./images/7-4.jpg?raw=true)
+    * Content -> Width: 86 PX
+    * Style -> Color #FFFFFF/Weight 4/Gap 0
+    * Advanced -> Padding: 24 0 0 0
+![divider created](./images/7-5.png?raw=true)
 
-    5. Position: Duplicate your name section. Drag it down under the white bar.
-        * Content -> Title: "a position you are looking for"
-        * Content -> HTML Tag: H3
+5. Position: Duplicate your name section. Drag it down under the white bar.
+    * Content -> Title: "a position you are looking for"
+    * Content -> HTML Tag: H3
 
-    6. A short introduction: Duplicate the paragraph from the given template. Drag it down under the white bar.
-        * Content -> Text Editor: "your introduction"
-        * Style -> Text Color: #FFFFFF
-        * Advanced -> Padding: 0 0 0 0
-    ![paragraph](./images/7-6.png?raw=true)
+6. A short introduction: Duplicate the paragraph from the given template. Drag it down under the white bar.
+    * Content -> Text Editor: "your introduction"
+    * Style -> Text Color: #FFFFFF
+    * Advanced -> Padding: 0 0 0 0
+![paragraph](./images/7-6.png?raw=true)
 
-    7. Red button: Duplicate the red button from the given template. Place it under your short introduction.
-        * Content -> Button -> Text: Get My Resume
-        * Content -> Link: paste the link that holds your resume
-        * Content -> Link -> Alignment: left
-    ![resume](./images/7-7.png?raw=true)
+7. Red button: Duplicate the red button from the given template. Place it under your short introduction.
+    * Content -> Button -> Text: Get My Resume
+    * Content -> Link: paste the link that holds your resume
+    * Content -> Link -> Alignment: left
+![resume](./images/7-7.png?raw=true)
        
-    8. Background: Click the vacant dark background, then you can find the six digits on top of the section. Click the six digits button.
+8. Background: Click the vacant dark background, then you can find the six digits on top of the section. Click the six digits button.
     ![section button](./images/7-8.png?raw=true)
-        * Style -> Background -> Normal -> Image: choose your main background image
-            * Background -> Normal -> Repeat: No-repeat
-            * Background -> Normal -> Attachment: Fixed
-            * Background -> Normal -> Y Position: -488 PX
-            * Background -> Normal -> Size: Auto
-        * Style -> Background Overlay: choose your face image with the transparent background
-            * Background Overlay -> Normal -> Color: clear("go back" button)
-            * Background Overlay -> Normal -> Position: Bottom-right
-            * Background Overlay -> Normal -> Repeat: No-repeat
-            * Background Overlay -> Normal -> Opacity: 1
-            * Background Overlay -> Normal -> Size: Custom / Width: 75 %
+    * Style -> Background -> Normal -> Image: choose your main background image
+        - Background -> Normal -> Repeat: No-repeat
+        - Background -> Normal -> Attachment: Fixed
+        - Background -> Normal -> Y Position: -488 PX
+        - Background -> Normal -> Size: Auto
 
-    9. Wrap up: Remove unnecessary contents and click the update button on the bottom left.
-    ![Main section end](./images/7-9.png?raw=true)
+    * Style -> Background Overlay: choose your face image with the transparent background
+        - Background Overlay -> Normal -> Color: clear("go back" button)
+        - Background Overlay -> Normal -> Position: Bottom-right
+        - Background Overlay -> Normal -> Repeat: No-repeat
+        - Background Overlay -> Normal -> Opacity: 1
+        - Background Overlay -> Normal -> Size: Custom / Width: 75 %
+
+9. Wrap up: Remove unnecessary contents and click the update button on the bottom left.
+![Main section end](./images/7-9.png?raw=true)
