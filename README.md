@@ -87,52 +87,53 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
 ## Template Selection
 
 1. Clean all Plugins out.
-    ![Clean All Plugins Out 1-1](./images/1-1.png)
 
-![Clean All Plugins Out 1-2](./images/1-2.jpg?raw=true)
+    ![Clean All Plugins Out 1-1](./images/1-1.png?raw=true)
+
+    ![Clean All Plugins Out 1-2](./images/1-2.jpg?raw=true)
 
 <br>
 
 2. Visit your site to confirm your site is empty.
 
-![Visit your site to confirm your site is empty 2-1](https://github.com/seyoungnam/resume_website_with_wordpress/images/2-1.png?raw=true)
+    ![Visit your site to confirm your site is empty 2-1](./images/2-1.png?raw=true)
 
 <br>
 
 3. Back into the dashboard and go to “**Settings**” and “**Permalinks**”. Make sure to choose “**Post name**” as the URL and click “**save changes**”.
 
-![settings 3-1](https://github.com/seyoungnam/resume_website_with_wordpress/images/3-1.png?raw=true)
+    ![settings 3-1](./images/3-1.png?raw=true)
 
-![settings 3-2](https://github.com/seyoungnam/resume_website_with_wordpress/images/3-2.png?raw=true)
+    ![settings 3-2](./images/3-2.png?raw=true)
 
 <br>
 
 4. To make sure your website is discoverable by the search engines. Go to “**Reading**” in the settings, make sure “**Search engine visibility**” part is not checked. And click “**save changes**”.
 
-![Search engine visitbility](https://github.com/seyoungnam/resume_website_with_wordpress/images/4-1.png?raw=true)
+    ![Search engine visitbility](./images/4-1.png?raw=true)
 
 <br>
 
 5. Install the theme. 
 
     * Go to “**Appearance**” and click on “**Themes**”.
-    ![Install theme](https://github.com/seyoungnam/resume_website_with_wordpress/images/5-1.png?raw=true)
+    ![Install theme](./images/5-1.png?raw=true)
     * Click “**Add New**” button.
-    ![Add new](https://github.com/seyoungnam/resume_website_with_wordpress/images/5-2.png?raw=true)
+    ![Add new](./images/5-2.png?raw=true)
     * In the search bar, type “Astra”, and click on **install**, and **activate** on Astra theme.
-    ![Add new](https://github.com/seyoungnam/resume_website_with_wordpress/images/5-3.png?raw=true)
+    ![Add new](./images/5-3.png?raw=true)
 
 <br>
 
 6. Install plugins for template.
 
     * Click “**Plugins**” -> “**Add New**” -> type “**Starter templates**” in search bar, then click “**Install**” and “**activate**” on Starter Templates - Elementor.
-    ![Plugins -> Add New](https://github.com/seyoungnam/resume_website_with_wordpress/images/6-1.png?raw=true)
-    ![Starter Templates](https://github.com/seyoungnam/resume_website_with_wordpress/images/6-2.png?raw=true)
-    * Click “**Apperance**” -> “**Starter Templates**”. Choose Elementor
-    ![Get into starter templates](https://github.com/seyoungnam/resume_website_with_wordpress/images/6-3.png?raw=true)
-    ![Choose Elementor](https://github.com/seyoungnam/resume_website_with_wordpress/images/6-4.png?raw=true)
-    * In the search box, type and click “**Learn Digital Marketing**”
-    ![Learn Digital Marketing](https://github.com/seyoungnam/resume_website_with_wordpress/images/6-5.png?raw=true)
-    * Click “**Import Complete Site**”
-    ![Import Complete Site](https://github.com/seyoungnam/resume_website_with_wordpress/images/6-6.png?raw=true)
+    ![Plugins -> Add New](./images/6-1.png?raw=true)
+    ![Starter Templates](./images/6-2.png?raw=true)
+    * Click “**Apperance**” -> “**Starter Templates**”. Choose Elementor.
+    ![Get into starter templates](./images/6-3.png?raw=true)
+    ![Choose Elementor](./images/6-4.png?raw=true)
+    * In the search box, type and click “**Learn Digital Marketing**”.
+    ![Learn Digital Marketing](./images/6-5.png?raw=true)
+    * Click “**Import Complete Site**”.
+    ![Import Complete Site](./images/6-6.png?raw=true)
