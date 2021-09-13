@@ -13,11 +13,11 @@
     <a href="https://github.com/seyoungnam/resume_website_with_wordpress"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://smartandsecurecomputing.org/stevennam/">View Demo</a>
+    <a href="https://smartandsecurecomputing.org/stevennam/" target="_blank">View Demo</a>
     ·
-    <a href="https://github.com/seyoungnam/resume_website_with_wordpress/issues">Report Bug</a>
+    <a href="https://github.com/seyoungnam/resume_website_with_wordpress/issues" target="_blank">Report Bug</a>
     ·
-    <a href="https://github.com/seyoungnam/resume_website_with_wordpress/issues">Request Feature</a>
+    <a href="https://github.com/seyoungnam/resume_website_with_wordpress/issues" target="_blank">Request Feature</a>
   </p>
 </p>
 
@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-  <a href="https://smartandsecurecomputing.org/stevennam/">
+  <a href="https://smartandsecurecomputing.org/stevennam/" target="_blank">
     <img src="./images/0-0.png" alt="Project Main">
   </a>
 
