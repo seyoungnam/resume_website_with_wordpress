@@ -13,7 +13,7 @@
     <a href="https://github.com/seyoungnam/resume_website_with_wordpress"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://https://smartandsecurecomputing.org/stevennam/">View Demo</a>
+    <a href="https://smartandsecurecomputing.org/stevennam/">View Demo</a>
     ·
     <a href="https://github.com/seyoungnam/resume_website_with_wordpress/issues">Report Bug</a>
     ·
