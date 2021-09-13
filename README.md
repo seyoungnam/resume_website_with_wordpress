@@ -35,7 +35,7 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
       </ul>
     </li>
-    <li><a href="#template-selection"></a>Template Selection</li>
+    <li><a href="#template-selection">Template Selection</a></li>
     <li>
         <a href="#designing">Designing</a>
         <ul>
@@ -481,6 +481,8 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
 * Cathy Lee: [Github] (https://github.com/cathylee12)
 * Kimyou By
 * Valerie Kim
+
+Special Thanks to [KSEA Seattle chapter] (https://seattle.ksea.org) and [Smart And Secure Computing Research Group] (https://smartandsecurecomputing.org/)!! 👍 🎉 🥳
 
 <!-- CONTACT -->
 ## Contact
