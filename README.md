@@ -477,12 +477,12 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
 <!-- CONTRIBUTORS -->
 ## Contributors
 
-* Steven Seyoung Nam: [Github] (https://github.com/seyoungnam/)
-* Cathy Lee: [Github] (https://github.com/cathylee12)
+* Steven Seyoung Nam: [Github](https://github.com/seyoungnam/)
+* Cathy Lee: [Github](https://github.com/cathylee12)
 * Kimyou By
 * Valerie Kim
 
-Special Thanks to [KSEA Seattle chapter] (https://seattle.ksea.org) and [Smart And Secure Computing Research Group] (https://smartandsecurecomputing.org/)!! 👍 🎉 🥳
+Special Thanks to [KSEA Seattle chapter](https://seattle.ksea.org) and [Smart And Secure Computing Research Group](https://smartandsecurecomputing.org/)!! 👍 🎉 🥳
 
 <!-- CONTACT -->
 ## Contact
