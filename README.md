@@ -28,9 +28,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -39,10 +36,19 @@
       </ul>
     </li>
     <li><a href="#template-selection"></a>Template Selection</li>
-    <li><a href="#designing">Designing</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li>
+        <a href="#designing">Designing</a>
+        <ul>
+        <li><a href="#Main Section">Main Section</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Work Experiences & Skills">Work Experiences & Skills</a></li>
+        <li><a href="#About Me">About Me</a></li>
+        <li><a href="#Navbar">Navbar</a></li>
+        <li><a href="#Footer">Footer</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributors">Contributors</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -50,26 +56,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][./images/0-0.png?raw=true]](https://smartandsecurecomputing.org/stevennam/)
 
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Finding a job is a long and arduous journey. It is especially true to international students like me, who are lack of knowledge in the current job market and ignorant of how to begin the process. Most students usually start it by creating and editing their LinkedIn profile. In my opinion, the LinkedIn profile helps you get connected with potential employers, but can't give an impact so that they could remember you among thousands of applicants. I believe the resume website would play more roles than LinkedIn and that's why I built my resume website using WordPress. Below are some advantages of having a resume website.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Advantages of having a resume website:
+* When someone finds you, they'll have an instant, visual representation of who you are.
+* Your resume website can act as a digital portfolio of your online work and identity.
+* Your website makes your skills and experience more visible among other applicants.😎
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
-### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [WordPress](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+Prior to building my resume website, I did not have any experience with WordPress. But I was still able to build it within a day because of WordPress's intuitive user interface. With this tutorial, I bet you can make yours even in a shorter period of time. I hope this materials would help you create an awesome website and land on the job you are dreamed of in the end.
 
 
 <!-- GETTING STARTED -->
@@ -168,13 +165,15 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
     * Advanced -> Padding: 24 0 0 0
 ![divider created](./images/7-5.png?raw=true)
 
-5. Position: Duplicate your name section. Drag it down under the white bar.
+5. A job position: Duplicate your name section. Drag it down under the white bar.
     * Content -> Title: "a position you are looking for"
     * Content -> HTML Tag: H3
 
 6. A short introduction: Duplicate the paragraph from the given template. Drag it down under the white bar.
     * Content -> Text Editor: "your introduction"
-    * Style -> Text Color: #FFFFFF
+    * Style
+        - Alignment: Left
+        - Text Color: #FFFFFF
     * Advanced -> Padding: 0 0 0 0
 ![paragraph](./images/7-6.png?raw=true)
 
@@ -186,18 +185,21 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
        
 8. Background: Click the vacant dark background, then you can find the six dots on top of the section. Click the six dot button.
     ![section button](./images/7-8.png?raw=true)
-    * Style -> Background -> Normal -> Image: choose your main background image
-        - Background -> Normal -> Repeat: No-repeat
-        - Background -> Normal -> Attachment: Fixed
-        - Background -> Normal -> Y Position: -488 PX
-        - Background -> Normal -> Size: Auto
+    * Style -> Background -> Normal
+        - Image: choose your main background image
+        - Position: Custom
+        - Y Position: -488 PX
+        - Attachment: Fixed
+        - Repeat: No-repeat
+        - Size: Auto
 
-    * Style -> Background Overlay: choose your face image with the transparent background
-        - Background Overlay -> Normal -> Color: clear("go back" button)
-        - Background Overlay -> Normal -> Position: Bottom-right
-        - Background Overlay -> Normal -> Repeat: No-repeat
+    * Style -> Background Overlay
+        - Image: choose your face image with the transparent background
+        - Position: Bottom-right
+        - Repeat: No-repeat
+        - Size: Custom / Width: 75 %
         - Background Overlay -> Normal -> Opacity: 1
-        - Background Overlay -> Normal -> Size: Custom / Width: 75 %
+        - Background Overlay -> Normal -> Color: Clear("go back" button)
 
 9. Wrap up: Remove unnecessary contents and click the update button on the bottom left.
 ![Main section end](./images/7-9.png?raw=true)
@@ -215,6 +217,7 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
     1. Click the section button on the top left and remove the current image.
         ![portfolio section start](./images/8-2.png?raw=true)
         * Style -> Background -> Normal -> Color: #F4F5F6
+        * Style -> Background Overlay -> Color: Clear ("go back" button)
         * Advanced -> Padding: 100 0 50 0
 
     2. Change the text in the title and paragraph.
@@ -229,30 +232,41 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
     ![card section creation 2](./images/8-4.png?raw=true)
     ![card section creation 3](./images/8-5.png?raw=true)
 
-    2. Establish a column style: click one column out of four.
-        * Style -> Border -> Normal -> Radius 15 15 15 15 / Box Shadow blur 10
+    2. Align the background color. To do so, Click the six dot button.
+        * Style -> Background
+            - Background Type: Classic (the first button)
+            - Color: #F4F5F6
+
+    3. Establish a column style: click one column out of four.
+    ![card section creation 1](./images/8-5-1.png?raw=true)
+        * Style -> Background -> Normal
+            - Background Type: Classic
+            - Color: #FFFFFF
+        * Style -> Border
+            - Normal -> Radius 15 15 15 15
+            - Hover -> Radius 15 15 15 15 / Box Shadow blur 10
         * Advanced -> Margin: 20 20 20 20
         
-    3. Insert the modal box: click the nine dot button, search "premium modal box", and drag the box to the column. You will see that the column style is well applied.
+    4. Insert the modal box: click the nine dot button, search "premium modal box", and drag the box to the column. You will see that the column style is well applied when your cursor hovers over the card.
     ![premium modal box](./images/8-6.png?raw=true)
     ![premium modal box with style](./images/8-7.png?raw=true)
 
-    4. Insert the image box: click the nine dot button, search "image box", and drag the box to the column.
+    5. Insert the image box: click the nine dot button, search "image box", and drag the box to the column.
     ![image box](./images/8-8.png?raw=true)
 
-    5. Edit the image box
+    6. Edit the image box
         * Delete the image.
         * Content
             - Image Box -> Title & Description: "Your project title and description"
             - Title HTML Tag: H5
         * Style -> Content
-            - Spacing: 0
             - Alignment: left
+            - Spacing: 0
             - Description -> Typography: 15 PX
         * Advacned -> Padding: 10 10 10 10
         ![image box created](./images/8-9.png?raw=true)
 
-    6. Edit the modal box
+    7. Edit the modal box
         * Click the pencil button of the premium modal box.
         * Content -> Content
             - Title: "Your project title"
@@ -265,7 +279,8 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
             - Alignment: Center
         ![card finished](./images/8-10.png?raw=true)
 
-    7. By applying the same strategy, create other portfolio cards. Don't forget to give 100 padding at the bottom and background color(#F4F5F6).
+    8. By applying the same strategy, create other portfolio cards. Don't forget to give 100 padding at the bottom.
+    ![give 100 padding](./images/8-11.png?raw=true)
 
 <br>
 
@@ -273,51 +288,232 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
 
 1. Drag the "My Experience" section right under the portfolio section. Change the title to "Work Expriences & Skills". Delete the texts under the title.
 
-2. Skill Category Title: Insert the "Text Editor" block under the title.
+2. Change the background color to white.
+![background color white](./images/9-0.png?raw=true)
+
+
+3. Skill Category Title: Insert the "Text Editor" block under the title.
     * Content -> Text Editor
         - Change "Paragraph" to "Heading 5"
         - Type in one of your skills in the text box
+    * Advanced -> Margin: 0 0 -16 0
 
-3. Relevant Skills: Insert the "Text Editor" block under the skill title. 
+4. Relevant Skills: Insert the "Text Editor" block under the skill title. 
     * Content -> Text Editor -> Text: Create your contents using HTML tags. Feel free to use my format as follows.
     ![Skills](./images/9-1.png?raw=true)
 
 ```HTML
 <div class="row">
-<div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
+    <div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
 
-<img class="" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="NodeJS icon Vector Logo - Download Free SVG Icon | Worldvectorlogo" width="38" height="42" />
+        <img class="" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="NodeJS icon Vector Logo - Download Free SVG Icon | Worldvectorlogo" width="38" height="42" />
 
-NodeJs
+        NodeJs
 
-</div>
-<div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
+    </div>
 
-<img class="" src="https://cdn.iconscout.com/icon/free/png-512/django-1-282754.png" alt="Free Django Flat Logo Icon - Available in SVG, PNG, EPS, AI &amp; Icon fonts" width="43" height="43" />
+    <div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
 
-Django
+        <img class="" src="https://cdn.iconscout.com/icon/free/png-512/django-1-282754.png" alt="Free Django Flat Logo Icon - Available in SVG, PNG, EPS, AI &amp; Icon fonts" width="43" height="43" />
 
-</div>
-<div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
+        Django
 
-<img class="" src="https://cdn.freelogovectors.net/wp-content/uploads/2018/12/react_logo.png" alt="React Logo Download Vector" width="47" height="42" />
+    </div>
+    <div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
 
-React
+        <img class="" src="https://cdn.freelogovectors.net/wp-content/uploads/2018/12/react_logo.png" alt="React Logo Download Vector" width="47" height="42" />
 
-</div>
-<div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
+        React
 
-<img class="" src="https://images.tute.io/tute/topic/FastAPI.png" alt="FastAPI Tutorials, Books, Courses &amp; Resources" width="42" height="42" />
+    </div>
+    <div class="alignleft" style="text-align: justify; -moz-text-align-last: center; text-align-last: center;">
 
-FastAPI
+        <img class="" src="https://images.tute.io/tute/topic/FastAPI.png" alt="FastAPI Tutorials, Books, Courses &amp; Resources" width="42" height="42" />
 
-</div>
+        FastAPI
+
+    </div>
 </div>
 ```
 
 
-4. Repeat Step 2 and 3 if necessary to fully showcase your skillset.
+5. Repeat Step 3 and 4 if necessary, to fully showcase your skill set.
 
-5. For your experience part, try to adjust the section size first.
+6. For your experience part, expand the section width first. Hover your cursor to the section border, grap the section border, and adjust the width.
+![Adjust the width](./images/9-2.png?raw=true)
+
+7. Pull the work experiences section to the left.
+    1. Select the work experiences section.
+    2. Advanced -> Padding: 50 0 0 0
+    ![Adjust the width](./images/9-3.png?raw=true)
+
+8. Edit the contents of each expereince. Make sure to add Heading between your job title and task descriptions.
+![Add Organization](./images/9-4.png?raw=true)
+    * For the organization you worked for, Content -> Title -> HTML Tag: H5
+
+<br>
+
+### About Me
+
+1. We are going to use the given "About Me" template. First of all, change the background color.
+    * Style -> Background -> Normal -> Color: #F4F5F6
+
+2. Subsititue the original image with "Image Carousel".
+![Image Carousel](./images/10-1.png?raw=true)
+    * Content -> Image Carousel
+        - "add button" : Choose multiple images.
+        - Image Size: Full
+        - Slides to Show: 1
+        - Image Stretch: No
+        - Navigation: Arrows and Dots
+
+3. Change the contents of the two paragraphs below the title - "About Me".
+
+4. Delete "Read More" button and the following numeric information.
+
+5. Add "Education" section.
+    1. Grap and drop the "Heading" element below the paragraph in the right column.
+    ![Image Carousel](./images/10-2.png?raw=true)
+        * Content -> Title: Education
+        * Content -> HTML Tag: H3
+        * Advanced -> Padding: 30 0 15 0
+
+    2. Similar to the above step, add "Text Editor" below "Education".
+        * Content -> Text Editor -> Text (not "Visual")
+        ```HTML
+        <div class="row">
+            <div class="alignleft"><img class="" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/58/University_of_Washington_seal.svg/150px-University_of_Washington_seal.svg.png" alt="University of Washington seal.svg" width="53" height="53" /></div>
+            <div class="alignleft">
+            <h5 style="font-style: normal; margin-bottom: 4px;">M.S. in Information Management</h5>
+            University of Washington - Seattle, WA, Jun 2022
+
+        </div>
+        </div>
+        ```
+
+    3. Repeat the step 2 if you need to add an additional degree.
+
+6. To add "Certifications" section, iterate step 5.
+
+7. Remove unnecessary contents under the "About Me" section. Push "Update" button.
+
+<br>
+
+### Navbar
+
+1. To make sure that the website moves down to "Portfolio" section when clicking "Portfolio" button in the navbar, search for a "Menu Anchor" widget element, drag and drop it above the "Portfolio" title.
+![Anchor Portfolio](./images/11-1.png?raw=true)
+    * Content -> Anchor -> The ID of Menu Anchor: portfolio
+
+2. Create the anchor for "Work Experiences", "Skills", and "About Me" by iterating step 1. Make sure to assign their own anchor ID.
+
+3. Push "Update" button and get out of the editing mode by re-entering your website address.
+
+4. Click "Customize" button on the top black bar.
+![Customize navbar](./images/11-2.png?raw=true)
+
+5. Once clicking the pencil icon on the top right corner, you can identify each component's name and its location.
+![navbar pencil](./images/11-3.png?raw=true)
+![navbar components](./images/11-4.png?raw=true)
+
+6. Edit "Social" icons.
+    1. Click the "Social" component in the bar. The editor on your left pane will change. 
+    ![social icons](./images/11-5.png?raw=true)
+    
+    2. You can add or remove your social networking sites. Make sure to attach the URL.
+    
+
+7.  Edit "Site Identity & Logo".
+    1. Click the "Site Identity & Logo" in the bar.
+
+    2. You can substitue the current logo with yours by clicking "Change Logo" button on your left pane. If you don't have any logos, turn on "Display Site Title" and write your name.
+    ![logo](./images/11-6.png?raw=true)
+
+    3. click "Design" in the editor and choose the following colors.
+        - Title Color -> Normal: #ffffff
+        - Title Color -> Hover: (r,g,b,a) : (0 0 0 0.68)
+
+8. Edit "Button".
+    1. Click the "Button" in the bar.
+    2. Text: "Email Me"
+    3. Link: mailto:"your email address"
+    4. Activate "Open in a New Tab".
+
+9. Edit "Primary Menu" and "Secondary Menu".
+    1. Click the "previous" button until it disappears in your editor.
+    ![previous](./images/11-7.png?raw=true)
+    2. Menus -> Primary
+    3. Remove all existing menus(Home, About, Courses).
+    ![Remove menus](./images/11-8.png?raw=true)
+    4. Hit "Add Items" and open "Custom Links".
+        - URL: "#" + "anchor ID"
+        (e.g. #portfolio)
+        - Link Text: "Button name"
+        (e.g. Portfolio)
+        - Hit "Add to Menu"
+        ![Custom links](./images/11-9.png?raw=true)
+
+    5. Repeat from step 2 to 4. Make sure to choose "Secondary" in step 2.
+
+<br>
+
+### Footer
+
+1. Scroll down to the bottom of the site, click the pencil icon on the top right corner to show up the control bar.
+![Footer control](./images/12-1.png?raw=true)
+
+2. Remove all cards except the "Copyright" card.
+![Copyright](./images/12-2.png?raw=true)
+
+3. Click the "Copyright" card in the control bar. Edit the contents of the paragraph in the editor.
+(e.g. [copyright] [current_year] [site_title] | Powered by WordPress)
+
+
+<br>
+
+<!-- CONTRIBUTORS -->
+## Contributors
+
+* Steven Seyoung Nam: [Github] (https://github.com/seyoungnam/)
+* Cathy Lee: [Github] (https://github.com/cathylee12)
+* Kimyou By
+* Valerie Kim
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [Steven Seyoung Nam](https://www.linkedin.com/in/seyoungnam/) - seyoung.nam@gmail.com
+
+Project Link: [https://smartandsecurecomputing.org/stevennam/](https://smartandsecurecomputing.org/stevennam/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
