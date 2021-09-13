@@ -39,12 +39,12 @@
     <li>
         <a href="#designing">Designing</a>
         <ul>
-        <li><a href="#Main Section">Main Section</a></li>
-        <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href="#Work Experiences & Skills">Work Experiences & Skills</a></li>
-        <li><a href="#About Me">About Me</a></li>
-        <li><a href="#Navbar">Navbar</a></li>
-        <li><a href="#Footer">Footer</a></li>
+        <li><a href="#main-section">Main Section</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#work-experiences-and-skills">Work Experiences And Skills</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#navbar">Navbar</a></li>
+        <li><a href="#footer">Footer</a></li>
       </ul>
     </li>
     <li><a href="#contributors">Contributors</a></li>
@@ -56,8 +56,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][./images/0-0.png?raw=true]](https://smartandsecurecomputing.org/stevennam/)
+  <a href="https://smartandsecurecomputing.org/stevennam/">
+    <img src="./images/0-0.png" alt="Project Main">
+  </a>
 
+<br>
 
 Finding a job is a long and arduous journey. It is especially true to international students like me, who are lack of knowledge in the current job market and ignorant of how to begin the process. Most students usually start it by creating and editing their LinkedIn profile. In my opinion, the LinkedIn profile helps you get connected with potential employers, but can't give an impact so that they could remember you among thousands of applicants. I believe the resume website would play more roles than LinkedIn and that's why I built my resume website using WordPress. Below are some advantages of having a resume website.
 
@@ -284,7 +287,7 @@ There are no explicit prerequisites for this project. One thing to keep in mind 
 
 <br>
 
-### Work Experiences & Skills
+### Work Experiences And Skills
 
 1. Drag the "My Experience" section right under the portfolio section. Change the title to "Work Expriences & Skills". Delete the texts under the title.
 
